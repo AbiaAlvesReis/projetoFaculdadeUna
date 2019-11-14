@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/login.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+
+    <title>NCEx</title>
+</head>
+
+<body>
+    <div>
+        <header>
+            <nav>
+                <div class="logo">
+                    <h1 class="logo-titulo">NCEx</h1>
+                </div>
+            </nav>
+        </header>
+        <main class="row">
+            <div class="login-painel col-lg-5">
+                    <h1>Painel de usuário</h1>
+                    <form action="page/painel.html" method="POST" id="paienlusuario">
+                        <p class="camp-login">
+                            <label for="login">Login : </label>
+                            <input type="text" id="login" name="login" placeholder="Digite seu login" required>
+                        </p>
+                        <p class="camp-pass">
+                            <label for="senha">Senha : </label>
+                            <input type="password" id="senha" name="Senha" placeholder="Digite sua senha" required>
+                        </p>
+                        <input type="submit" name="Login" value="Logar" onclick="logar()">
+                    </form>
+                </div>
+        </main>
+    </div>
+    <script src="js/logar.js"></script>
+</body>
+</html>

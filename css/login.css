@@ -1,0 +1,98 @@
+/* Body : Estilo relacionado ao corpo da Pagina */
+body {
+    background-color: #6E6E6E;
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -150px;
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+
+}
+/* logo e logo-titulo : Relacionado a parte de cima da pagina o titulo */
+.logo {
+   /* background-color: rgba(53, 53, 53, 0.5); */
+    background-color: #aeaeae;
+    padding: 1px;
+    box-shadow: 1px 1px 5px black;
+}
+.logo-titulo {
+    color: black;
+    padding:  0 250px;
+    text-decoration: underline;
+    font-size: 36px;
+}
+
+/* login-painel : Relacionado a parte base do login */
+.login-painel {
+    background-color:#aeaeae50;
+    border-radius: 20px;
+    margin: auto;
+    color: black;
+    width: 30%;
+    height: 200px;
+    margin-top: 120px;
+    padding-bottom: 50px;
+    display: block;
+    transition: 1s;
+    box-shadow: 1px 1px 5px #6E6E6E;
+}
+.login-painel {
+    text-align: center;
+}
+.login-painel h1 {
+    font-size: 30px;
+    color: #009e73;
+    padding-top: 20px;
+}
+.login-painel p {
+    color: #009e73;
+    font-weight: bold;
+}
+.login-painel:hover {
+    box-shadow: 0 0 15px #6E6E6E;
+}
+/* Abaixo relacionado a parte de login e campos input */
+
+.camp-login, .camp-pass {
+    padding: 5px;
+}
+input[type=text] {
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 20px;
+    outline: none;
+}
+input[type=text]:hover {
+    border: 1px solid aquamarine;
+}
+input[type=password] {
+    padding: 10px;
+    border-radius: 20px;
+    border:none;
+    border: 1px solid white;
+    outline: none;
+}
+input[type=password]:hover {
+    border: 1px solid aquamarine;
+}
+textarea {
+    color: aquamarine;
+}
+textarea:hover {
+    border: 1px solid aquamarine;
+}
+input[type=submit]{
+    background-color: whitesmoke;
+    padding: 5px 20px;
+    border: none;
+    outline: none;
+    color: #009e73;
+    border-radius: 20px;
+    font-size: 20px;
+}
+input[type=submit]:hover {
+    color: whitesmoke;
+    background-color: #009e73;
+}
